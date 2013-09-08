@@ -1,0 +1,19 @@
+{
+    "name": "tangler/dropbox",
+    "description": "Dropbox Module for Tangler",
+    "homepage": "http://www.github.com/Tangler/Dropbox",
+    "keywords": ["php", "tangler", "dropbox", "action", "trigger"],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "2.4.*@dev",
+        "phpunit/phpunit": "3.7.*@dev",
+        "dropbox/dropbox-sdk": "1.1.*",
+        "tangler/tangler": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tangler\\": "src/"
+        }
+    }
+}
